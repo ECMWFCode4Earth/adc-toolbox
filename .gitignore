@@ -2,5 +2,8 @@ __pycache__/
 .vscode
 .ipynb_checkpoints
 ref/
-data/
+data/ads/SO2/
+data/ads/NO2/
+data/tropomi/
 CAMS-IASI.ipynb
+CAMS-TROPOMI-modified.ipynb
