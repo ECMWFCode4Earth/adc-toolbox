@@ -7,3 +7,4 @@ data/ads/NO2/
 data/tropomi/
 CAMS-IASI.ipynb
 env-new/
+CAMS-TROPOMI-no-interp.ipynb
