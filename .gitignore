@@ -9,4 +9,8 @@ data/tropomi/
 env-new/
 others/
 1-main_cams_tropomi-timeseries.ipynb
+2-main_cams_tropomi-so2.ipynb
+3-main_cams_tropomi.co.ipynb
+4-main_cams_tropomi-o3.ipynb
+5-main_cams_tropomi-complex.ipynb
 nano.save
