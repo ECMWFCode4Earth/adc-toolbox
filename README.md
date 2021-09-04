@@ -111,8 +111,8 @@ Another important aspect of the installation is that the library cartopy (maps v
 <p align = "center">
 <b>Alba Vilanova Cortezón</b><br>
 Software developer intern at <a href="https://www.meteomatics.com/en/" target = "_blank">Meteomatics AG</a><br>
-BSc in Mechanical Engineering at University of Lleida<br>
-MSc in Geospatial Technologies at NOVA University of Lisbon, WWWU Münster and UJI<br>
+BSc in Mechanical Engineering at <a href ="https://www.udl.cat/ca/en/" target = "_blank">University of Lleida</a> and <a href ="http://eng.inha.ac.kr/" target = "_blank">Inha University</a><br>
+MSc in Geospatial Technologies at <a href ="https://www.novaims.unl.pt/default" target = "_blank">NOVA University of Lisbon</a>, <a href ="https://www.uni-muenster.de/en/" target = "_blank">WWU Münster</a> and <a href ="https://www.uji.es/" target = "_blank">UJI</a><br>
 GitHub: <a href="https://github.com/albavilanova" target = "_blank">@albavilanova</a><br>
 LinkedIn: <a href="https://www.linkedin.com/in/albavilanova" target = "_blank">@albavilanova</a><br>
 Website: <a href = "https://albavilanova.es/" target = "_blank">https://albavilanova.es/</a><br>
