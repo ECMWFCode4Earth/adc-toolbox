@@ -108,16 +108,12 @@ Another important aspect of the installation is that the library cartopy (maps v
 <!-- AUTHOR -->
 <h2 id = "author">Author</h2>
 <p align = "center"><img style="border-radius: 50%;" src="report/alba-vilanova.jpg" alt="Alba Vilanova Cortezón" width = 150px></img></p>
-  <ul style="list-style-type:none;" align = "center">
-    <li>
-        <p>
-          <b>Alba Vilanova Cortezón</b><br>
-          Software developer intern at <a href="https://www.meteomatics.com/en/" target = "_blank">Meteomatics AG</a><br>
-          BSc in Mechanical Engineering at University of Lleida<br>
-          MSc in Geospatial Technologies at NOVA University of Lisbon, WWWU Münster and UJI<br>
-          GitHub: <a href="https://github.com/albavilanova" target = "_blank">@albavilanova</a><br>
-          LinkedIn: <a href="https://www.linkedin.com/in/albavilanova" target = "_blank">@albavilanova</a><br>
-          Website: <a href = "https://albavilanova.es/" target = "_blank">https://albavilanova.es/</a><br>
-        </p>
-    </li>
-  </ul>
+<p align = "center">
+<b>Alba Vilanova Cortezón</b><br>
+Software developer intern at <a href="https://www.meteomatics.com/en/" target = "_blank">Meteomatics AG</a><br>
+BSc in Mechanical Engineering at University of Lleida<br>
+MSc in Geospatial Technologies at NOVA University of Lisbon, WWWU Münster and UJI<br>
+GitHub: <a href="https://github.com/albavilanova" target = "_blank">@albavilanova</a><br>
+LinkedIn: <a href="https://www.linkedin.com/in/albavilanova" target = "_blank">@albavilanova</a><br>
+Website: <a href = "https://albavilanova.es/" target = "_blank">https://albavilanova.es/</a><br>
+</p>
