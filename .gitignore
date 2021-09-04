@@ -5,8 +5,7 @@ data/cams/CO/
 data/cams/NO2/
 data/cams/SO2/
 data/cams/O3
+data/iasi/
 data/tropomi/
 env-new/
-others/
 nano.save
-main_cams_iasi.ipynb
