@@ -4,7 +4,7 @@
 </br>
 
 <p align="center"> 
-  <img src = "report/project-image.png" alt = "2021 ESoWC Project Image - ADC Toolbox" width = "90%" height = "90%">
+  <img src = "report/project-image.png" alt = "2021 ESoWC Project Image - ADC Toolbox" width = "95%" height = "95%">
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
@@ -107,8 +107,7 @@ Another important aspect of the installation is that the library cartopy (maps v
 
 <!-- AUTHOR -->
 <h2 id = "author">Author</h2>
-<p align = "center"><img style="border-radius: 50%;" src="report/alba-vilanova.jpg" alt="Alba Vilanova Cortezón" width = 150px></img></p>
-<p align = "center">
+<p align = "center"><img style = "border-radius: 50%;" src = "report/alba-vilanova.jpg" alt = "Alba Vilanova Cortezón" width = 150px></img><br>
 <b>Alba Vilanova Cortezón</b><br>
 Software developer intern at <a href="https://www.meteomatics.com/en/" target = "_blank">Meteomatics AG</a><br>
 BSc in Mechanical Engineering at <a href ="https://www.udl.cat/ca/en/" target = "_blank">University of Lleida</a> and <a href ="http://eng.inha.ac.kr/" target = "_blank">Inha University</a><br>
