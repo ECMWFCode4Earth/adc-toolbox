@@ -7,6 +7,6 @@ data/cams/SO2/
 data/cams/O3
 data/iasi/
 data/tropomi/
+data/gome/
 env-new/
 nano.save
-main_cams_gome-2.ipynb
