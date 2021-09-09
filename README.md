@@ -18,8 +18,9 @@
     <li><a href = "#description">Description</a></li>
     <li><a href = "#requirements">Requirements</a></li>
     <li><a href = "#organization">Organization </a></li>
-    <li><a href = "#references"> References</a></li>
-    <li><a href = "#author"> Author</a></li>
+    <li><a href = "#references">References</a></li>
+    <li><a href = "#author">Author</a></li>
+    <li><a href = "#support">Support</a></li>
   </ol>
 </details>
 
@@ -28,7 +29,9 @@
 <!-- ABOUT THE PROJECT -->
 <h2 id = "description">Description</h2>
 
-Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools that allows users to compare atmospheric composition datasets from different sources. Currently, it is possible to compare <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">forecast</a> and <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4">reanalysis</a> data from CAMS model and <a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI</a> and <a href = "http://www.tropomi.eu/" target = "_blank">TROPOMI</a> sensors.
+Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools that allows users to compare atmospheric composition datasets from different sources. Currently, it is possible to compare:
+* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> data from CAMS model and <a href = "http://www.tropomi.eu/" target = "_blank">TROPOMI</a> (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>) sensor.
+* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4">Reanalysis</a> data from CAMS model and <a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI</a> (CO, O<sub>3</sub>) and <a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2</a> (NO<sub>2</sub>, O<sub>3</sub>) sensors.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
@@ -69,8 +72,10 @@ Another important aspect of the installation is that the library cartopy (maps v
     │   ├── functions_general.ipynb  <- Functions that apply to all datasets
     │   ├── functions_cams.ipynb     <- Functions that apply to the datasets from CAMS model
     │   ├── functions_iasi.ipynb     <- Functions that apply to the datasets from IASI sensor
-    │   └── functions_tropomi.ipynb  <- Functions that apply to the datasets from TROPOMI sensor
+    │   ├── functions_tropomi.ipynb  <- Functions that apply to the datasets from TROPOMI sensor
+    │   └── functions_gome.ipynb     <- Functions that apply to the datasets from GOME-2 sensor
     │
+    ├── main_cams_gome.ipynb         <- Example of how to use the functions to compare CAMS and GOME-2 datasets
     ├── main_cams_iasi.ipynb         <- Example of how to use the functions to compare CAMS and IASI datasets
     └── main_cams_tropomi.ipynb      <- Example of how to use the functions to compare CAMS and TROPOMI datasets
 
@@ -84,6 +89,7 @@ Another important aspect of the installation is that the library cartopy (maps v
     <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4">CAMS global reanalysis</a>
     <li><a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI observation datasets</a>
     <li><a href = "https://s5phub.copernicus.eu/dhus" target = "_blank">TROPOMI observation datasets</a>
+    <li><a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2 observation datasets</a>
   </ul>
 
 <h3>Important documentation</h3>
@@ -116,3 +122,16 @@ GitHub: <a href="https://github.com/albavilanova" target = "_blank">@albavilanov
 LinkedIn: <a href="https://www.linkedin.com/in/albavilanova" target = "_blank">@albavilanova</a><br>
 Website: <a href = "https://albavilanova.es/" target = "_blank">https://albavilanova.es/</a><br>
 </p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+<!-- SUPPORT -->
+<h2 id = "support">Support</h2>
+ADC-Toolbox has been developed under the framework set by <a href ="https://esowc.ecmwf.int/" target = "_blank">ECMWF Summer of Weather Code</a>:<br>
+<p align = "center"><img src = "report/ESoWC-logo.png" alt = "Logo of ESoWC" width = 300px></img></p>
+A special <b>thank you to my mentors</b> for their support and guidance:
+  <ul>
+    <li>Federico Fierli</li>
+    <li>Antje Inness</li>
+    <li>Miha Razinger</li>
+ </ul>
