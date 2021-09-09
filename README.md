@@ -30,8 +30,8 @@
 <h2 id = "description">Description</h2>
 
 Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools that allows users to compare atmospheric composition datasets from different sources. Currently, it is possible to compare:
-* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> data from CAMS model and <a href = "http://www.tropomi.eu/" target = "_blank">TROPOMI</a> (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>) sensor.
-* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4">Reanalysis</a> data from CAMS model and <a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI</a> (CO, O<sub>3</sub>) and <a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2</a> (NO<sub>2</sub>, O<sub>3</sub>) sensors.
+* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> data from CAMS model and NRT data from <a href = "http://www.tropomi.eu/" target = "_blank">TROPOMI</a> (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>) sensor.
+* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4">Reanalysis</a> data from CAMS model and L3 data from <a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI</a> (CO, O<sub>3</sub>) and <a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2</a> (NO<sub>2</sub>, O<sub>3</sub>) sensors.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
@@ -129,9 +129,4 @@ Website: <a href = "https://albavilanova.es/" target = "_blank">https://albavila
 <h2 id = "support">Support</h2>
 ADC-Toolbox has been developed under the framework set by <a href ="https://esowc.ecmwf.int/" target = "_blank">ECMWF Summer of Weather Code</a>:<br><br>
 <p align = "center"><img src = "report/ESoWC-logo.png" alt = "Logo of ESoWC" width = 300px></img></p>
-A special <b>thanks to my mentors</b> for their support and guidance:
-  <ul>
-    <li>Federico Fierli</li>
-    <li>Antje Inness</li>
-    <li>Miha Razinger</li>
- </ul>
+A special <b>thanks to my mentors Federico Fierli, Antje Inness and Miha Razinger</b> for their support and guidance.
