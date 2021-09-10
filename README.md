@@ -127,9 +127,9 @@ Website: <a href = "https://albavilanova.es/" target = "_blank">https://albavila
 
 <!-- SUPPORT -->
 <h2 id = "support">Support</h2>
-ADC-Toolbox has been developed under the framework set by <a href ="https://esowc.ecmwf.int/" target = "_blank">ECMWF Summer of Weather Code</a>:<br>
+ADC-Toolbox has been developed under the framework set by <a href ="https://esowc.ecmwf.int/" target = "_blank">ECMWF Summer of Weather Code</a>:<br><br>
 <p align = "center"><img src = "report/ESoWC-logo.png" alt = "Logo of ESoWC" width = 300px></img></p>
-A special <b>thank you to my mentors</b> for their support and guidance:
+A special <b>thanks to my mentors</b> for their support and guidance:
   <ul>
     <li>Federico Fierli</li>
     <li>Antje Inness</li>
