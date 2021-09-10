@@ -30,8 +30,8 @@
 <h2 id = "description">Description</h2>
 
 Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools that allows users to compare atmospheric composition datasets from different sources. Currently, it is possible to compare:
-* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> data from CAMS model and NRT data from <a href = "http://www.tropomi.eu/" target = "_blank">TROPOMI</a> (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>) sensor.
-* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4">Reanalysis</a> data from CAMS model and L3 data from <a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI</a> (CO, O<sub>3</sub>) and <a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2</a> (NO<sub>2</sub>, O<sub>3</sub>) sensors.
+* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> data from CAMS model and L2 NRT data from <a href = "http://www.tropomi.eu/" target = "_blank">TROPOMI</a> (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>) sensor.
+* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4">Reanalysis</a> data from CAMS model and L3 monthly data from <a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI</a> (CO, O<sub>3</sub>) and <a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2</a> (NO<sub>2</sub>, O<sub>3</sub>) sensors.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
