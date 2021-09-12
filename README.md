@@ -4,7 +4,7 @@
 </br>
 
 <p align="center"> 
-  <img src = "report/project-image.png" alt = "2021 ESoWC Project Image - ADC Toolbox" width = "95%" height = "95%">
+  <img src = "report/ADC-toolbox-image.png" alt = "2021 ESoWC Project Image - ADC Toolbox" width = "95%" height = "95%">
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
