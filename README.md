@@ -40,19 +40,23 @@ Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools th
 
 The main packages that must be downloaded to be able to run this software can be found in the requirements.txt file.
 
-```
-pip install -r requirements.txt
+```bash
+$ pip install -r requirements.txt
 ```
 
 It is important to know that this code only runs in Linux operative systems due to the fact that CAMS model data must be downloaded as grib files, which can only be done using ecCodes, a package developed by ECMWF that is only available for Linux. In order to install this library, refer to this <a href = "https://gist.github.com/MHBalsmeier/a01ad4e07ecf467c90fad2ac7719844a" target = "_blank">installation guide</a> for clear instructions.
 
-Another important aspect of the installation is that the library cartopy (maps visualization) requires the following modules, that can be installed via the command line with:
-
-`$ sudo apt-get install libproj-dev proj-data proj-bin`
-
-`$ sudo apt-get install libgeos-dev`
-
-`$ sudo pip install cython`
+Another relevant aspect of the installation is that the library cartopy (maps visualization) requires the following modules, that can be installed via the command line with:
+```bash
+$ sudo apt-get install libproj-dev proj-data proj-bin`
+$ sudo apt-get install libgeos-dev`
+$ sudo pip install cython`
+```
+In case you want to see the distribution of the components by countries, you will need a Google API Key, Client User ID and Secret. The library Geocoder is used, which allows the users of the ADC-Toolbox to use other APIs to do reverse geocoding (retrieving location information by coordinates). In the function scatter_plot, you will find the following line. You can rewrite as you wish. The list of providers can be found in <a href = "https://github.com/DenisCarriere/geocoder" target = "_blank"> Geocoder's Github repository</a>.
+```python
+>>> merge['Country'] = merge.apply(lambda row: geocoder.google([row['latitude'], row['longitude']], 
+                                   method='reverse', key = google_api_key).country_long, axis = 1)
+```
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
@@ -90,6 +94,7 @@ Another important aspect of the installation is that the library cartopy (maps v
     <li><a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI observation datasets</a>
     <li><a href = "https://s5phub.copernicus.eu/dhus" target = "_blank">TROPOMI observation datasets</a>
     <li><a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2 observation datasets</a>
+    <li><a href = "https://developers.google.com/maps/documentation/geocoding/overview" target = "_blank">Google Geocoding API</a></li>
   </ul>
 
 <h3>Important documentation</h3>
@@ -107,6 +112,7 @@ Another important aspect of the installation is that the library cartopy (maps v
     <li><a href = "https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/functions.ipynb" target = "_blank">Visualization function</a>
     <li><a href = "https://matplotlib.org/2.0.2/examples/pylab_examples/image_masked.html" target = "_blank">Masking NaN values</a>
     <li><a href = "https://confluence.ecmwf.int/pages/viewpage.action?pageId=153391710" target = "_blank">Units conversion</a>
+    <li><a href = "https://github.com/DenisCarriere/geocoder" target = "_blank">Reverse geocoding</a></li>
   </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
