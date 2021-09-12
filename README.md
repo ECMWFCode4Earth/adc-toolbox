@@ -48,9 +48,9 @@ It is important to know that this code only runs in Linux operative systems due 
 
 Another relevant aspect of the installation is that the library cartopy (maps visualization) requires the following modules, that can be installed via the command line with:
 ```bash
-$ sudo apt-get install libproj-dev proj-data proj-bin`
-$ sudo apt-get install libgeos-dev`
-$ sudo pip install cython`
+$ sudo apt-get install libproj-dev proj-data proj-bin
+$ sudo apt-get install libgeos-dev
+$ sudo pip install cython
 ```
 In case you want to see the distribution of the components by countries, you will need a Google API Key, Client User ID and Secret. The library Geocoder is used, which allows the users of the ADC-Toolbox to use other APIs to do reverse geocoding (retrieving location information by coordinates). In the function scatter_plot, you will find the following line. You can rewrite as you wish. The list of providers can be found in <a href = "https://github.com/DenisCarriere/geocoder" target = "_blank"> Geocoder's Github repository</a>.
 ```python
