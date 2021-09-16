@@ -30,8 +30,8 @@
 <h2 id = "description">Description</h2>
 
 Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools that allows users to compare atmospheric composition datasets from different sources. Currently, it is possible to compare:
-* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> data from CAMS model and L2 NRT data from <a href = "http://www.tropomi.eu/" target = "_blank">TROPOMI</a> (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>) sensor.
-* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4">Reanalysis</a> data from CAMS model and L3 monthly data from <a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI</a> (CO, O<sub>3</sub>) and <a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2</a> (NO<sub>2</sub>, O<sub>3</sub>) sensors.
+* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> data from CAMS model and L2 NRT data from <a href = "http://www.tropomi.eu/" target = "_blank">TROPOMI</a> (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>) and <a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2</a> (NO<sub>2</sub>, O<sub>3</sub>, HCHO) sensors.
+* <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4">Reanalysis</a> data from CAMS model and L3 monthly data from <a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI</a> (CO, O<sub>3</sub>) and <a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2</a> (NO<sub>2</sub>) sensors.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
@@ -63,25 +63,26 @@ In case you want to see the distribution of the components by countries, you wil
 <!-- ORGANIZATION -->
 <h2 id = "organization">Organization</h2>
 
-    ├── README.md                    <- Details about the project
-    ├── LICENSE                      <- Details about the license
-    ├── requirements.txt             <- Details about the requirements
-    ├── data                         <- Folder where the datasets are stored
+    ├── README.md                   <- Details about the project
+    ├── LICENSE                     <- Details about the license
+    ├── requirements.txt            <- Details about the requirements
+    ├── data                        <- Folder where the datasets are stored
     │   │
-    │   └── cams                     <- Folder for CAMS datasets
-    │       └── 137-levels.csv       <- Details about CAMS model levels
+    │   └── cams                    <- Folder for CAMS datasets
+    │       └── 137-levels.csv      <- Details about CAMS model levels
     │
-    ├── functions                    <- Folder that contains functions
+    ├── functions                   <- Folder that contains functions
     │   │
-    │   ├── functions_general.ipynb  <- Functions that apply to all datasets
-    │   ├── functions_cams.ipynb     <- Functions that apply to the datasets from CAMS model
-    │   ├── functions_iasi.ipynb     <- Functions that apply to the datasets from IASI sensor
-    │   ├── functions_tropomi.ipynb  <- Functions that apply to the datasets from TROPOMI sensor
-    │   └── functions_gome.ipynb     <- Functions that apply to the datasets from GOME-2 sensor
+    │   ├── functions_general.ipynb <- Functions that apply to all datasets
+    │   ├── functions_cams.ipynb    <- Functions that apply to the datasets from CAMS model
+    │   ├── functions_iasi.ipynb    <- Functions that apply to the datasets from IASI sensor
+    │   ├── functions_tropomi.ipynb <- Functions that apply to the datasets from TROPOMI sensor
+    │   └── functions_gome.ipynb    <- Functions that apply to the datasets from GOME-2 sensor
     │
-    ├── main_cams_gome.ipynb         <- Example of how to use the functions to compare CAMS and GOME-2 datasets
-    ├── main_cams_iasi.ipynb         <- Example of how to use the functions to compare CAMS and IASI datasets
-    └── main_cams_tropomi.ipynb      <- Example of how to use the functions to compare CAMS and TROPOMI datasets
+    ├── main_cams_gome_L2.ipynb     <- Example of how to use the functions to compare CAMS and GOME-2 L2 datasets
+    ├── main_cams_gome_L3.ipynb     <- Example of how to use the functions to compare CAMS and GOME-2 L3 datasets
+    ├── main_cams_iasi_L3.ipynb     <- Example of how to use the functions to compare CAMS and IASI L3 datasets
+    └── main_cams_tropomi_L2.ipynb  <- Example of how to use the functions to compare CAMS and TROPOMI L2 datasets
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
