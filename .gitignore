@@ -4,7 +4,8 @@ __pycache__/
 data/cams/CO/
 data/cams/NO2/
 data/cams/SO2/
-data/cams/O3
+data/cams/O3/
+data/cams/HCHO/
 data/iasi/
 data/tropomi/
 data/gome/
