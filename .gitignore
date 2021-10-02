@@ -6,9 +6,11 @@ data/cams/NO2/
 data/cams/SO2/
 data/cams/O3/
 data/cams/HCHO/
+data/cams/NH3/
 data/iasi/
 data/tropomi/
 data/gome/
 data/keys.txt
 env-new/
 nano.save
+main_cams_iasi_L2.ipynb
