@@ -3,6 +3,7 @@ Cartopy==0.19.0.post1
 cdsapi==0.5.1
 cfgrib==0.9.9.0
 eccodes==1.2.0
+ffmpeg-python==0.2.0
 geocoder==1.38.1
 h5py==3.4.0
 ipykernel==6.0.3
