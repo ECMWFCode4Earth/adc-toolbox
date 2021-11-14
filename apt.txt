@@ -1,5 +1,4 @@
-libgeos-dev 
-libgeos-doc
 libproj-dev 
 proj-data 
 proj-bin
+libgeos-dev
