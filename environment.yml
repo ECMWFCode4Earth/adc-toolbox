@@ -5,7 +5,3 @@ dependencies:
   - pip
   - pip:
     - -r requirements.txt
-  - anaconda:
-    - libproj-dev 
-    - proj-data 
-    - proj-bin
