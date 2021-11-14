@@ -41,9 +41,9 @@ Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools th
 
 ADC-toolbox facilitates the retrieval of all these datasets since their corresponding start dates (Table 1). As an exception, the retrieval of IASI L2 data is currently available only since May 14, 2019.
 
-<center>
-Table 1. Temporal availability (start date - present) by data source.
-
+<p align="center"> Table 1. Temporal availability (start date - present) by data source.</p>
+<p align="center">
+  
 | Dataset | Type | NO<sub>2</sub> | O<sub>3</sub> | CO | SO<sub>2</sub> | HCHO |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | CAMS  | <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> | 01.2015 | 01.2015 | 01.2015 | 01.2015 | 01.2015 | 
@@ -54,7 +54,7 @@ Table 1. Temporal availability (start date - present) by data source.
 | GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L2</a> | 01.2007 | 01.2007 | - | 01.2007 | 01.2007 | 
 | GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L3</a> | 02.2007 | 01.2007 | - | 01.2007 | 01.2007 | 
 
-</center>
+</p>
 
 The temporal availability of each dataset differs from others. CAMS forecasts became available in 2015 and the reanalysis datasets are accessible since 2003. Besides, the satellites that carry the instruments were launched in different years. Sentinel 5-P was launched in 2017, whereas Metop-A, the first European polar-orbiting satellite, was launched in 2006 and will be de-orbited in 2021. Metop-B and Metop-C have been operational since 2012 and 2018, respectively. 
 
