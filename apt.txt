@@ -1,3 +1,4 @@
+libhdf5-serial-dev
 python3-dev
 libproj-dev 
 proj-data 
