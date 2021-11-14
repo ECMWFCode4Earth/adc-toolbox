@@ -1,4 +1,8 @@
-libgeos-dev=3.7.2
+libgeos++-dev 
+libgeos-3.8.0
+libgeos-c1v5 
+libgeos-dev 
+libgeos-doc
 libproj-dev 
 proj-data 
 proj-bin
