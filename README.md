@@ -1,6 +1,7 @@
 <h1><b>ADC Toolbox: Comparing Atmospheric Composition Datasets</b></h1>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/esowc/adc-toolbox/HEAD)
+
 </br>
 
 <p align="center"> 
