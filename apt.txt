@@ -1,4 +1,4 @@
-libgeos3.7.2
+libgeos-3.7.2
 libgeos++-dev
 libgeos-c1v5 
 libgeos-dev 
