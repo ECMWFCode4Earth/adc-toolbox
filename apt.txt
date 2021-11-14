@@ -1,4 +1,4 @@
-libgeos-dev==3.7.2
+libgeos++-dev
 libproj-dev 
 proj-data 
 proj-bin
