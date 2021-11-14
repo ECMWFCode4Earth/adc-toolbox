@@ -1,7 +1,6 @@
-<h1 align = "center"><b>ADC Toolbox</b></h1>
-<h3 align = "center"><b>Comparing Atmospheric Composition Datasets</b></h3>
+<h1><b>ADC Toolbox: Comparing Atmospheric Composition Datasets</b></h1>
 
-<p align = "center">[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/esowc/adc-toolbox/HEAD)</p>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/esowc/adc-toolbox/HEAD)
 </br>
 
 <p align="center"> 
@@ -62,7 +61,11 @@ The temporal availability of each dataset differs from others. CAMS forecasts be
 <h2 id = "requirements">3. Requirements</h2>
 <h3>3.1. General</h3>
 
-The main packages that must be downloaded to be able to run this software can be found in the <em>requirements.txt</em> file.
+The main packages that must be downloaded to be able to run this software can be found in <em>requirements.txt</em> and <em>apt.txt</em>.
+
+```bash
+$ sudo apt-get install --yes --no-install-recommends
+```
 
 ```bash
 !pip install -r requirements.txt
