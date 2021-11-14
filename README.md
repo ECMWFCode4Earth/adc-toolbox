@@ -1,8 +1,7 @@
 <h1 align = "center"><b>ADC Toolbox</b></h1>
 <h3 align = "center"><b>Comparing Atmospheric Composition Datasets</b></h3>
-
-<p align = "center">[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/esowc/adc-toolbox/HEAD)</p>
-</br>
+  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/esowc/adc-toolbox/HEAD)
 
 <p align="center"> 
   <img src = "report/ADC-toolbox-image.png" alt = "2021 ESoWC Project Image - ADC Toolbox" width = "95%" height = "95%">
