@@ -65,7 +65,7 @@ The temporal availability of each dataset differs from others. CAMS forecasts be
 The main packages that must be downloaded to be able to run this software can be found in <em>requirements.txt</em> and <em>apt.txt</em>.
 
 ```bash
-$ sudo apt-get install --yes --no-install-recommends
+$ sudo apt-get update install --yes --no-install-recommends
 ```
 
 ```bash
