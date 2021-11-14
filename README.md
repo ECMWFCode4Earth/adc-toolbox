@@ -1,6 +1,7 @@
 <h1 align = "center"><b>ADC Toolbox</b></h1>
 <h3 align = "center"><b>Comparing Atmospheric Composition Datasets</b></h3>
 
+<p align = "center">[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/esowc/adc-toolbox/HEAD)</p>
 </br>
 
 <p align="center"> 
@@ -31,7 +32,7 @@
 <h2 id = "description">1. Description</h2>
 
 Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools that allows users to compare atmospheric composition datasets from different sources. Currently, it is possible to compare:
-* Forecast data from CAMS model vs. L2 NRT data from TROPOMI (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>), IASI (O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, HCHO) sensors.
+* Forecast data from CAMS model vs. L2 near real-time and offline data from TROPOMI (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>), IASI (O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, HCHO) sensors.
 * Reanalysis monthly data from CAMS model vs. L3 monthly data from IASI (CO, O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>) sensors.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
@@ -39,11 +40,10 @@ Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools th
 <!-- ABOUT THE DATASETS -->
 <h2 id = "datasets">2. Datasets</h2>
 
-ADC-toolbox facilitates the retrieval of all these datasets since their corresponding start dates (Table 1). As an exception, the retrieval of IASI L2 data is currently available only since May 14, 2019.
+ADC-toolbox facilitates the retrieval of all the datasets presented in Table 1, since the dates they became available to the public. As an exception, the retrieval of IASI L2 data is currently available only since May 14, 2019.
 
 <p align="center"> Table 1. Temporal availability (start date - present) by data source.</p>
-<p align="center">
-  
+
 | Dataset | Type | NO<sub>2</sub> | O<sub>3</sub> | CO | SO<sub>2</sub> | HCHO |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | CAMS  | <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> | 01.2015 | 01.2015 | 01.2015 | 01.2015 | 01.2015 | 
@@ -53,8 +53,6 @@ ADC-toolbox facilitates the retrieval of all these datasets since their correspo
 | IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L3</a> | - | 01.2008 | 10.2007 | 10.2007 | - |
 | GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L2</a> | 01.2007 | 01.2007 | - | 01.2007 | 01.2007 | 
 | GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L3</a> | 02.2007 | 01.2007 | - | 01.2007 | 01.2007 | 
-
-</p>
 
 The temporal availability of each dataset differs from others. CAMS forecasts became available in 2015 and the reanalysis datasets are accessible since 2003. Besides, the satellites that carry the instruments were launched in different years. Sentinel 5-P was launched in 2017, whereas Metop-A, the first European polar-orbiting satellite, was launched in 2006 and will be de-orbited in 2021. Metop-B and Metop-C have been operational since 2012 and 2018, respectively. 
 
@@ -75,14 +73,6 @@ It is important to know that this code only runs in Linux operative systems due 
 To download data from CAMS, you will also need to create an account and <a href = "https://ads.atmosphere.copernicus.eu/api-how-to" target = "_blank">install the CDS API key</a>  in your computer.
 
 <h3>3.2. Maps visualization</h3>
-
-Another relevant aspect of the installation is that the library cartopy (maps visualization) requires the following modules, that can be installed via the command line with:
-
-```bash
-$ sudo apt-get install libproj-dev proj-data proj-bin
-$ sudo apt-get install libgeos-dev
-$ sudo pip install cython
-```
 
 Lately, there have been problems retrieving the data from NACIS Natural Earth to generate the maps. It has also been found out that there are compatibility issues between the libraries <em>Cartopy</em> and <em>Shapely</em>. It is recommended that <em>Shapely</em> is reinstalled after installing <em>Cartopy</em> and that the maps data are downloaded manually with the following commands:
 
