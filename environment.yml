@@ -1,0 +1,11 @@
+name: adc-toolbox
+dependencies:
+  - python>=3.8
+  - anaconda
+  - pip
+  - pip:
+    - -r requirements.txt
+  - anaconda:
+    - libproj-dev 
+    - proj-data 
+    - proj-bin
