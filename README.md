@@ -1,7 +1,5 @@
-<h1><b>ADC Toolbox: Comparing Atmospheric Composition Datasets</b></h1>
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/esowc/adc-toolbox/HEAD)
-
+<h1 align="center"><b>ADC Toolbox</b></h1>
+<h2 align="center">Comparing Atmospheric Composition Datasets</h2>
 </br>
 
 <p align="center"> 
@@ -62,11 +60,21 @@ The temporal availability of each dataset differs from others. CAMS forecasts be
 <h2 id = "requirements">3. Requirements</h2>
 <h3>3.1. General</h3>
 
-The main packages that must be downloaded to be able to run this software can be found in <em>requirements.txt</em> and <em>apt.txt</em>.
+The main packages that must be downloaded to be able to run this software can be found in <em>requirements.txt</em> and <em>apt.txt</em>. The library cartopy (for the maps visualization) requires the following modules, that can be installed via <em>apt.txt</em>:
 
 ```bash
 $ sudo apt-get update install
 ```
+
+Or with:
+
+```bash
+$ sudo apt-get install libproj-dev proj-data proj-bin
+$ sudo apt-get install libgeos-dev
+$ sudo pip install cython
+```
+
+Once installed, you can run:
 
 ```bash
 !pip install -r requirements.txt
