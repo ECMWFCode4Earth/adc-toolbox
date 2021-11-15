@@ -4,3 +4,10 @@ libproj-dev
 proj-data 
 proj-bin
 libgeos-dev
+libeccodes-dev
+libeccodes-tools
+libnetcdf-dev 
+libnetcdff-dev 
+libopenjp2-7-dev 
+gcc 
+gfortran
