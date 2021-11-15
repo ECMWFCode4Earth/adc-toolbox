@@ -10,3 +10,4 @@ dependencies:
   - conda:
     - cartopy==0.19.0.post1
     - netCDF4==1.5.6
+    - scipy==1.6.3
