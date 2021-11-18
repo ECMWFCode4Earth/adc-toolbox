@@ -1,0 +1,11 @@
+name: adc-toolbox
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - python>=3.8
+  - cartopy
+  - pip
+    - -r requirements.txt
+prefix: /opt/conda/envs/adc-toolbox
