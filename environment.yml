@@ -1,5 +1,4 @@
 name: adc-toolbox
-channel_priority: strict
 channels:
   - conda-forge
   - defaults
