@@ -1,5 +1,4 @@
 bs4
-Cartopy
 cdsapi
 cfgrib
 eccodes
@@ -22,3 +21,4 @@ sentinelsat
 scikit-learn
 scipy
 xarray
+
