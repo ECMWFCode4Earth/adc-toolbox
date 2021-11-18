@@ -1,8 +1,10 @@
 name: adc-toolbox
+channel_priority: strict
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python>=3.8
+  - python>=3.8.6
   - ipykernel
   - anaconda
   - cartopy
