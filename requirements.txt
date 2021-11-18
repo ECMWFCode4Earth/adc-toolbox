@@ -1,6 +1,7 @@
 bs4
 cdsapi
 cfgrib
+climetlab
 eccodes
 ffmpeg-python
 geocoder
