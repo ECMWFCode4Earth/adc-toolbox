@@ -3,9 +3,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - ipykernel
   - python>=3.8
+  - ipykernel
+  - anaconda
   - cartopy
-  - pip
+  - pip:
     - -r requirements.txt
 prefix: /opt/conda/envs/adc-toolbox
