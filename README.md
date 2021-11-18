@@ -68,6 +68,7 @@ The temporal availability of each dataset differs from others. CAMS forecasts be
 The needed packages to run this software can be found in <em>requirements.txt</em>. The virtual environment <em>environment.yml</em> was generated to simplify the installation process, users just need to clone the project, create the environment and activate it with:
 
 ```bash
+$ conda config --set channel_priority false
 $ conda env create -f environment.yml
 ```
 
