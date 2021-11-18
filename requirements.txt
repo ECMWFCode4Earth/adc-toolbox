@@ -6,7 +6,6 @@ eccodes
 ffmpeg-python
 geocoder
 h5py
-ipykernel
 ipympl
 ipython
 ipywidgets

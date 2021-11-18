@@ -65,19 +65,19 @@ The temporal availability of each dataset differs from others. CAMS forecasts be
 <h2 id = "requirements">3. Requirements</h2>
 <h3>3.1. General</h3>
 
-The main packages that must be downloaded to be able to run this software can be found in <em>requirements.txt</em>. The library cartopy (for the maps visualization) should be installed using conda instead of pip with:
+The needed packages to run this software can be found in <em>requirements.txt</em>. The virtual environment <em>environment.yml</em> was generated to simplify the installation process, users just need to clone the project, create the environment and activate it with:
 
 ```bash
-$ conda install -c conda-forge/label/cartopy_dev cartopy
+$ conda env create -f environment.yml
 ```
 
-Once it is installed, you should run:
+Once everything is installed, they should run:
 
 ```bash
-!pip install -r requirements.txt
+$ conda activate env
 ```
 
-To download data from CAMS, you will need to create an account, <a href = "https://ads.atmosphere.copernicus.eu/api-how-to" target = "_blank">get the ADS API key</a>, create a file with the name <em>keys.txt</em> under the folder <em>data</em>, and write your API key in one line.
+To download data from CAMS, users will need to create an account, <a href = "https://ads.atmosphere.copernicus.eu/api-how-to" target = "_blank">get the ADS API key</a>, create a file with the name <em>keys.txt</em> under the folder <em>data</em>, and write their API key in one line.
 
 It is important to know that this code only runs in Linux operative systems due to the fact that CAMS model data must be downloaded in GRIB format. This can only be done using <em>ecCodes</em>, a package developed by ECMWF that is only available for Linux. In order to install this library, refer to this <a href = "https://gist.github.com/MHBalsmeier/a01ad4e07ecf467c90fad2ac7719844a" target = "_blank">installation guide</a> for clear instructions.
 
@@ -96,12 +96,12 @@ Lately, there have been problems retrieving the data from NACIS Natural Earth to
 
 <h3>3.3. Scatter plots by country</h3>
 
-In case you want to see the distribution of the components by countries, you will need a Google API Key, Client User ID and Secret. The library Geocoder is used to get the data from Google, but it also allows the users of the ADC-Toolbox to use other APIs to do reverse geocoding (retrieving location information by coordinates). In the function scatter_plot, you will find the following line. You can rewrite as you wish. The list of providers can be found in <a href = "https://github.com/DenisCarriere/geocoder" target = "_blank"> <em>Geocoder</em>'s Github repository</a>.
+In case users want to see the distribution of the components by countries, they will need a Google API Key, Client User ID and Secret. The library Geocoder is used to get the data from Google, but it also allows the users of the ADC-Toolbox to use other APIs to do reverse geocoding (retrieving location information by coordinates). In the function scatter_plot, they will find the following line. You can rewrite as they wish. The list of providers can be found in <a href = "https://github.com/DenisCarriere/geocoder" target = "_blank"> <em>Geocoder</em>'s Github repository</a>.
 ```python
 >>> merge['Country'] = merge.apply(lambda row: geocoder.google([row['latitude'], row['longitude']], 
                                    method='reverse', key = google_api_key).country_long, axis = 1)
 ```
-If you do not want to edit anything and prefer to run the code using Google API, then you should edit the file <em>keys.txt</em> under the folder <em>data</em>, and write three lines, under your ADS API key. They should contain, in this order, the Google API Key, Client User ID and Secret.
+If they do not want to edit anything and prefer to run the code using Google API, then they should edit the file <em>keys.txt</em> under the folder <em>data</em>, and write three lines, under their ADS API key. They should contain, in this order, the Google API Key, Client User ID and Secret.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
