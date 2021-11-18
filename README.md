@@ -60,21 +60,13 @@ The temporal availability of each dataset differs from others. CAMS forecasts be
 <h2 id = "requirements">3. Requirements</h2>
 <h3>3.1. General</h3>
 
-The main packages that must be downloaded to be able to run this software can be found in <em>requirements.txt</em> and <em>apt.txt</em>. The library cartopy (for the maps visualization) requires the following modules, that can be installed via <em>apt.txt</em>:
+The main packages that must be downloaded to be able to run this software can be found in <em>requirements.txt</em>. The library cartopy (for the maps visualization) should be installed using conda instead of pip with:
 
 ```bash
-$ sudo apt-get update install
+$ conda install -c conda-forge/label/cartopy_dev cartopy
 ```
 
-Or with:
-
-```bash
-$ sudo apt-get install libproj-dev proj-data proj-bin
-$ sudo apt-get install libgeos-dev
-$ sudo pip install cython
-```
-
-Once installed, you can run:
+Once it is installed, you should run:
 
 ```bash
 !pip install -r requirements.txt
