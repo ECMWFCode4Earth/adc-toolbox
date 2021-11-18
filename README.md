@@ -82,7 +82,7 @@ Once installed, you can run:
 
 It is important to know that this code only runs in Linux operative systems due to the fact that CAMS model data must be downloaded in GRIB format. This can only be done using <em>ecCodes</em>, a package developed by ECMWF that is only available for Linux. In order to install this library, refer to this <a href = "https://gist.github.com/MHBalsmeier/a01ad4e07ecf467c90fad2ac7719844a" target = "_blank">installation guide</a> for clear instructions.
 
-To download data from CAMS, you will also need to create an account and <a href = "https://ads.atmosphere.copernicus.eu/api-how-to" target = "_blank">install the ADS API key</a> and create a file with the name <em>keys.txt</em> under the folder <em>data</em>, and write one line with your API key.
+To download data from CAMS, you will also need to create an account, <a href = "https://ads.atmosphere.copernicus.eu/api-how-to" target = "_blank">get the ADS API key</a> and create a file with the name <em>keys.txt</em> under the folder <em>data</em>, and write your API key in one line.
 
 <h3>3.2. Maps visualization</h3>
 
