@@ -11,3 +11,4 @@ libnetcdff-dev
 libopenjp2-7-dev 
 gcc 
 gfortran
+curl
