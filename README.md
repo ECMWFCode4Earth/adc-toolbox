@@ -82,7 +82,7 @@ Once installed, you can run:
 
 It is important to know that this code only runs in Linux operative systems due to the fact that CAMS model data must be downloaded in GRIB format. This can only be done using <em>ecCodes</em>, a package developed by ECMWF that is only available for Linux. In order to install this library, refer to this <a href = "https://gist.github.com/MHBalsmeier/a01ad4e07ecf467c90fad2ac7719844a" target = "_blank">installation guide</a> for clear instructions.
 
-To download data from CAMS, you will also need to create an account and <a href = "https://ads.atmosphere.copernicus.eu/api-how-to" target = "_blank">install the CDS API key</a>  in your computer.
+To download data from CAMS, you will also need to create an account and <a href = "https://ads.atmosphere.copernicus.eu/api-how-to" target = "_blank">install the ADS API key</a> and create a file with the name <em>keys.txt</em> under the folder <em>data</em>, and write one line with your API key.
 
 <h3>3.2. Maps visualization</h3>
 
@@ -104,7 +104,7 @@ In case you want to see the distribution of the components by countries, you wil
 >>> merge['Country'] = merge.apply(lambda row: geocoder.google([row['latitude'], row['longitude']], 
                                    method='reverse', key = google_api_key).country_long, axis = 1)
 ```
-If you do not want to edit anything and prefer to run the code using Google API, then you should create a file with the name <em>keys.txt</em> under the folder <em>data</em>, and write three lines. They should contain, in this order, the Google API Key, Client User ID and Secret.
+If you do not want to edit anything and prefer to run the code using Google API, then you should edit the file <em>keys.txt</em> under the folder <em>data</em>, and write three lines, under your ADS API key. They should contain, in this order, the Google API Key, Client User ID and Secret.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
