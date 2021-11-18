@@ -70,12 +70,7 @@ The needed packages to run this software can be found in <em>requirements.txt</e
 ```bash
 $ conda config --set channel_priority false
 $ conda env create -f environment.yml
-```
-
-Once everything is installed, they should run:
-
-```bash
-$ conda activate env
+$ conda activate adc-toolbox
 ```
 
 To download data from CAMS, users will need to create an account, <a href = "https://ads.atmosphere.copernicus.eu/api-how-to" target = "_blank">get the ADS API key</a>, create a file with the name <em>keys.txt</em> under the folder <em>data</em>, and write their API key in one line.
