@@ -33,6 +33,11 @@ Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools th
 * Forecast data from CAMS model vs. L2 near real-time and offline data from TROPOMI (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>), IASI (O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, HCHO) sensors.
 * Reanalysis monthly data from CAMS model vs. L3 monthly data from IASI (CO, O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>) sensors.
 
+Users can install the software in their desktop or launch Binder:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/esowc/adc-toolbox/main)
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 <!-- ABOUT THE DATASETS -->
