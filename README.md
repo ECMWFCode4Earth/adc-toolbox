@@ -113,27 +113,39 @@ If they do not want to edit anything and prefer to run the code using Google API
 <!-- ORGANIZATION -->
 <h2 id = "organization">4. Organization</h2>
 
-    ├── README.md                   <- Details about the project
-    ├── LICENSE                     <- Details about the license
-    ├── requirements.txt            <- Details about the requirements
-    ├── data                        <- Folder where the datasets are stored
+    ├── README.md                               <- Details about the project
+    ├── LICENSE                                 <- Details about the license
+    ├── apt.txt                                 <- Details about the requirements (apt-get)
+    ├── requirements.txt                        <- Details about the requirements (pip)
+    ├── environment.yml                         <- Details about the environment
+    ├── data                                    <- Folder where the datasets are stored
     │   │
-    │   └── cams                    <- Folder for CAMS datasets
-    │       └── 137-levels.csv      <- Details about CAMS model levels
+    │   └── cams                                <- Folder for CAMS datasets
+    │       │
+    │       └── 137-levels.csv                  <- Details about CAMS model levels
     │
-    ├── functions                   <- Folder that contains functions
+    ├── functions                               <- Folder that contains functions
     │   │
-    │   ├── functions_general.ipynb <- Functions that apply to all datasets
-    │   ├── functions_cams.ipynb    <- Functions that apply to the datasets from CAMS model
-    │   ├── functions_iasi.ipynb    <- Functions that apply to the datasets from IASI sensor
-    │   ├── functions_tropomi.ipynb <- Functions that apply to the datasets from TROPOMI sensor
-    │   └── functions_gome.ipynb    <- Functions that apply to the datasets from GOME-2 sensor
+    │   ├── functions_general.ipynb             <- Functions that apply to all datasets
+    │   ├── functions_cams.ipynb                <- Functions that apply to CAMS datasets
+    │   ├── functions_iasi.ipynb                <- Functions that apply to IASI datasets
+    │   ├── functions_tropomi.ipynb             <- Functions that apply to TROPOMI datasets
+    │   └── functions_gome.ipynb                <- Functions that apply to GOME-2 datasets
     │
-    ├── main_cams_gome_L2.ipynb     <- Example of how to use the functions to compare CAMS and GOME-2 L2 datasets
-    ├── main_cams_gome_L3.ipynb     <- Example of how to use the functions to compare CAMS and GOME-2 L3 datasets
-    ├── main_cams_iasi_L2.ipynb     <- Example of how to use the functions to compare CAMS and IASI L2 datasets
-    ├── main_cams_iasi_L3.ipynb     <- Example of how to use the functions to compare CAMS and IASI L3 datasets
-    └── main_cams_tropomi_L2.ipynb  <- Example of how to use the functions to compare CAMS and TROPOMI L2 datasets
+    ├── report                                  <- Folder where the images of the README.md are stored
+    │
+    ├── trainings                               <- Folder for trainings materials  
+    │   │
+    │   └── 2021-12-atmospheric-composition     <- 3rd EUMETSAT/ESA/ECMWF Joint Training in AC
+    │     │
+    │     ├── images                            <- Folder where the images of the training are stored
+    │     └── data-assimilation-practical.ipynb <- Data assimilation practical exercise
+    │
+    ├── main_cams_gome_L2.ipynb                 <- Comparison between CAMS and GOME-2 L2 datasets
+    ├── main_cams_gome_L3.ipynb                 <- Comparison between CAMS and GOME-2 L3 datasets
+    ├── main_cams_iasi_L2.ipynb                 <- Comparison between CAMS and IASI L2 datasets
+    ├── main_cams_iasi_L3.ipynb                 <- Comparison between CAMS and IASI L3 datasets
+    └── main_cams_tropomi_L2.ipynb              <- Comparison between CAMS and TROPOMI L2 datasets
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
