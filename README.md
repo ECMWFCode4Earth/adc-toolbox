@@ -43,7 +43,7 @@ Users can install the software in their desktop by following the steps described
 <!-- ABOUT THE DATASETS -->
 <h2 id = "datasets">2. Datasets</h2>
 
-ADC-toolbox facilitates the retrieval of all the datasets presented in Table 1, since the dates they became available to the public. As an exception, the retrieval of IASI L2 data is currently available only since May 14, 2019.
+ADC Toolbox facilitates the retrieval of all the datasets presented in Table 1, since the dates they became available to the public. As an exception, the retrieval of IASI L2 data is currently available only since May 14, 2019.
 
 <p align="center"> Table 1. Temporal availability (start date - present) by data source.</p>
 
@@ -71,6 +71,15 @@ The needed packages to run this software can be found in <em>requirements.txt</e
 $ conda config --set channel_priority false
 $ conda env create -f environment.yml
 $ conda activate adc-toolbox
+```
+
+If this takes too long, you can manually create it instead <strong>(recommended)</strong>:
+
+```bash
+$ conda create --name adc-toolbox
+$ conda activate adc-toolbox
+$ conda install -c conda-forge/label/cartopy_dev cartopy
+$ pip install -r requirements.txt
 ```
 
 To download data from CAMS, users will need to create an account, <a href = "https://ads.atmosphere.copernicus.eu/api-how-to" target = "_blank">get the ADS API key</a>, create a file with the name <em>keys.txt</em> under the folder <em>data</em>, and write their API key in one line.
@@ -143,7 +152,7 @@ If they do not want to edit anything and prefer to run the code using Google API
 <h3>5.2. Important documentation</h3>
   <ul>
     <li><a href = "https://sentinels.copernicus.eu/documents/247904/3119978/Sentinel-5P-Level-2-Input-Output-Data-Definition" target = "_blank"> TROPOMI user manual</a>
-    <li><a href = "http://www.tropomi.eu/sites/default/files/files/S5P-KNMI-L2-0021-MA-Product_User_Manual_for_the_Sentinel_5_precursor_Nitrogen_dioxide-0.8.1_20151207_signed.pdf" target = "_blank">TROPOMI NO2 product manual</a>
+    <li><a href = "http://www.tropomi.eu/sites/default/files/files/S5P-KNMI-L2-0021-MA-Product_User_Manual_for_the_Sentinel_5_precursor_Nitrogen_dioxide-0.8.1_20151207_signed.pdf" target = "_blank">TROPOMI NO<sub>2</sub> product manual</a>
     <li><a href = "http://www.tropomi.eu/sites/default/files/files/Sentinel-5P-Level-2-Product-User-Manual-Carbon-Monoxide_v1.00.02_20180613.pdf" target = "_blank">TROPOMI CO product manual</a>
     <li><a href = "https://readthedocs.org/projects/sentinelsat/downloads/pdf/stable/" target = "_blank">SENTINEL API documentation</a>
     <li><a href = "http://xarray.pydata.org/en/stable/api.html" target = "_blank">Xarray API reference</a>

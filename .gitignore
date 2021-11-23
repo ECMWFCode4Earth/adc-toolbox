@@ -1,6 +1,7 @@
 __pycache__/
 .vscode
 .ipynb_checkpoints
+data/keys.txt
 data/cams/CO/
 data/cams/NO2/
 data/cams/SO2/
@@ -10,6 +11,10 @@ data/cams/NH3/
 data/iasi/
 data/tropomi/
 data/gome/
-data/keys.txt
 env-new/
 nano.save
+trainings/2021-12-atmospheric-composition/data/keys.txt
+trainings/2021-12-atmospheric-composition/data/cams/NO2
+trainings/2021-12-atmospheric-composition/data/tropomi
+trainings/2021-12-atmospheric-composition/data/iasi
+trainings/2021-12-atmospheric-composition/data/gome
