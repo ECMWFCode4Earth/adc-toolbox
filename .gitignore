@@ -10,6 +10,7 @@ data/cams/HCHO/
 data/cams/NH3/
 data/iasi/
 data/tropomi/
+!data/tropomi/NO2/2021-10-28
 data/gome/
 env-new/
 nano.save
