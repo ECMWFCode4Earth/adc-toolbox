@@ -136,7 +136,7 @@ If they do not want to edit anything and prefer to run the code using Google API
     │   └── 2021-12-atmospheric-composition     <- 3rd EUMETSAT/ESA/ECMWF Joint Training in AC
     │     │
     │     ├── images                            <- Folder where the images of the training are stored
-    │     └── data-assimilation-practical.ipynb <- Data assimilation practical exercise
+    │     └── data-comparison-practical.ipynb   <- Data comparison practical
     │
     ├── main_cams_gome_L2.ipynb                 <- Comparison between CAMS and GOME-2 L2 datasets
     ├── main_cams_gome_L3.ipynb                 <- Comparison between CAMS and GOME-2 L3 datasets
