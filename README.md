@@ -103,7 +103,7 @@ In case users want to see the distribution of the components by countries, they 
 >>> merge['Country'] = merge.apply(lambda row: geocoder.google([row['latitude'], row['longitude']], 
                                    method='reverse', key = google_api_key).country_long, axis = 1)
 ```
-If they do not want to edit anything and prefer to run the code using Google API, then they should edit the file <em>keys.txt</em> under the folder <em>data</em>, and write three lines, under their ADS API key. They should contain, in this order, the Google API Key, Client User ID and Secret.
+If they do not want to edit anything and prefer to run the code using Google API, then they should edit the file <em>keys.txt</em> under the folder <em>data</em>, and write three lines, under their ADS API key. They should contain, in this order, the Google API Key, Client User ID and Secret. They can get their credentials in <a href = "https://console.cloud.google.com/projectselector/google/maps-apis/credentials" target = "_blank">Google Cloud Platform</a>.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
