@@ -13,9 +13,5 @@ data/tropomi/
 data/gome/
 env-new/
 nano.save
-trainings/2021-12-atmospheric-composition/data/keys.txt
-trainings/2021-12-atmospheric-composition/data/cams/NO2
-trainings/2021-12-atmospheric-composition/data/tropomi
-trainings/2021-12-atmospheric-composition/data/iasi
-trainings/2021-12-atmospheric-composition/data/gome
 animation.gif
+main_cams_tropomi_L3_test.ipynb

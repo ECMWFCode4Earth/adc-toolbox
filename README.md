@@ -31,7 +31,7 @@
 
 Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools that allows users to compare atmospheric composition datasets from different sources. Currently, it is possible to compare:
 * Forecast data from CAMS model vs. L2 near real-time and offline data from TROPOMI (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>), IASI (O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, HCHO) sensors.
-* Reanalysis monthly data from CAMS model vs. L3 monthly data from IASI (CO, O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>) sensors.
+* Reanalysis monthly data from CAMS model vs. L3 monthly data from TROPOMI (NO<sub>2</sub>), IASI (CO, O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>) sensors.
 
 Users can install the software in their desktop by following the steps described in <a href = "#requirements">Requirements</a>.
 
@@ -49,9 +49,10 @@ ADC Toolbox facilitates the retrieval of all the datasets presented in Table 1, 
 | CAMS  | <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> | 01.2015 - Present | 01.2015 - Present | 01.2015 - Present | 01.2015 - Present | 01.2015 - Present | 
 | CAMS  | <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-ghg-reanalysis-egg4-monthly">Reanalysis</a> | 01.2003 - Present | 01.2003 - Present | 01.2003 - Present | 01.2003 - Present | 01.2003 - Present | 
 | TROPOMI  | <a href = "https://s5phub.copernicus.eu/dhus/" target = "_blank">L2</a> | 07.2018 - Present | 07.2018 - Present | 07.2018 - Present | 10.2018 - Present | - | 
-| IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L2</a> | - | 01.2008 - Present | 10.2007 - Present | 10.2007- Present | - |
-| IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L3</a> | - | 01.2008 - Present | 10.2007- Present | 10.2007- Present | - |
-| GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L2</a> | 01.2007- Present | 01.2007 - Present | - | 01.2007- Present | 01.2007- Present | 
+| TROPOMI  | <a href = "https://www.temis.nl/" target = "_blank">L3</a> | 07.2018 - Present | - | - | - | - | 
+| IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L2</a> | - | 01.2008 - Present | 10.2007 - Present | 10.2007 - Present | - |
+| IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L3</a> | - | 01.2008 - Present | 10.2007 - Present | 10.2007 - Present | - |
+| GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L2</a> | 01.2007 - Present | 01.2007 - Present | - | 01.2007 - Present | 01.2007 - Present | 
 | GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L3</a> | 02.2007 - 11.2017 | 01.2007 - 11.2017 | - | - | - | 
 
 The temporal availability of each dataset differs from others. CAMS forecasts became available in 2015 and the reanalysis datasets are accessible since 2003. Besides, the satellites that carry the instruments were launched in different years. Sentinel 5-P was launched in 2017, whereas Metop-A, the first European polar-orbiting satellite, was launched in 2006 and will be de-orbited in 2021. Metop-B and Metop-C have been operational since 2012 and 2018, respectively. 
@@ -142,7 +143,8 @@ If they do not want to edit anything and prefer to run the code using Google API
     ├── main_cams_gome_L3.ipynb                 <- Comparison between CAMS and GOME-2 L3 datasets
     ├── main_cams_iasi_L2.ipynb                 <- Comparison between CAMS and IASI L2 datasets
     ├── main_cams_iasi_L3.ipynb                 <- Comparison between CAMS and IASI L3 datasets
-    └── main_cams_tropomi_L2.ipynb              <- Comparison between CAMS and TROPOMI L2 datasets
+    ├── main_cams_tropomi_L2.ipynb              <- Comparison between CAMS and TROPOMI L2 datasets
+    └── main_cams_tropomi_L3.ipynb              <- Comparison between CAMS and TROPOMI L3 datasets
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
@@ -150,15 +152,15 @@ If they do not want to edit anything and prefer to run the code using Google API
 <h2 id = "references">5. References</h2>
 <h3>5.1. Data sources</h3>
   <ul>
-    <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">CAMS global atmospheric composition forecasts</a></li>
-    <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-ghg-reanalysis-egg4-monthly">CAMS global greenhouse gas reanalysis (EGG4) monthly averaged fields</a>
-    <li><a href = "https://iasi.aeris-data.fr/" target = "_blank">IASI observation datasets</a>
-    <li><a href = "https://s5phub.copernicus.eu/dhus" target = "_blank">TROPOMI observation datasets</a>
-    <li><a href = "https://acsaf.org/offline_access.php" target = "_blank">GOME-2 observation datasets</a>
-    <li><a href = "https://developers.google.com/maps/documentation/geocoding/overview" target = "_blank">Google Geocoding API</a></li>
+    <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">ADS: CAMS global atmospheric composition forecasts</a></li>
+    <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-ghg-reanalysis-egg4-monthly">ADS: CAMS global greenhouse gas reanalysis (EGG4) monthly averaged fields</a></li>
+    <li><a href = "https://s5phub.copernicus.eu/dhus" target = "_blank">S5-P hub: TROPOMI L2 datasets</a></li>
+    <li><a href = "https://www.temis.nl/" target = "_blank">TEMIS: TROPOMI L3 datasets</a></li>
+    <li><a href = "https://iasi.aeris-data.fr/" target = "_blank">AERIS Portal: IASI datasets</a></li>
+    <li><a href = "https://acsaf.org/offline_access.php" target = "_blank">AC SAF: GOME-2 datasets</a></li>
   </ul>
 
-<h3>5.2. Important documentation</h3>
+<h3>5.2. Documentation</h3>
   <ul>
     <li><a href = "https://sentinels.copernicus.eu/documents/247904/3119978/Sentinel-5P-Level-2-Input-Output-Data-Definition" target = "_blank"> TROPOMI user manual</a>
     <li><a href = "http://www.tropomi.eu/sites/default/files/files/S5P-KNMI-L2-0021-MA-Product_User_Manual_for_the_Sentinel_5_precursor_Nitrogen_dioxide-0.8.1_20151207_signed.pdf" target = "_blank">TROPOMI NO<sub>2</sub> product manual</a>
@@ -167,12 +169,10 @@ If they do not want to edit anything and prefer to run the code using Google API
     <li><a href = "http://xarray.pydata.org/en/stable/api.html" target = "_blank">Xarray API reference</a>
   </ul>
   
-<h3>5.3. Other useful sources</h3>
+<h3>5.3. Other useful references</h3>
   <ul>
-    <li><a href = "http://christopherbull.com.au/python/scipy-interpolate-griddata/" target = "_blank">Grid interpolation</a>
-    <li><a href = "https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/functions.ipynb" target = "_blank">Visualization function</a>
-    <li><a href = "https://matplotlib.org/2.0.2/examples/pylab_examples/image_masked.html" target = "_blank">Masking NaN values</a>
-    <li><a href = "https://confluence.ecmwf.int/pages/viewpage.action?pageId=153391710" target = "_blank">Units conversion</a>
+    <li><a href = "https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/functions.ipynb" target = "_blank">Visualization function</a></li>
+    <li><a href = "https://confluence.ecmwf.int/display/OIFS/4.4+OpenIFS%3A+Vertical+Resolution+and+Configurations">CAMS model vertical resolution and configuration</a></li>
     <li><a href = "https://github.com/DenisCarriere/geocoder" target = "_blank">Reverse geocoding</a></li>
   </ul>
 
