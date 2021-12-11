@@ -100,8 +100,8 @@ Lately, there have been problems retrieving the data from NACIS Natural Earth to
 
 In case users want to see the distribution of the components by countries, they will need a Google API Key, Client User ID and Secret. The library Geocoder is used to get the data from Google, but it also allows the users of the ADC-Toolbox to use other APIs to do reverse geocoding (retrieving location information by coordinates). In the function scatter_plot, they will find the following line. You can rewrite as they wish. The list of providers can be found in <a href = "https://github.com/DenisCarriere/geocoder" target = "_blank"> <em>Geocoder</em>'s Github repository</a>.
 ```python
->>> merge['Country'] = merge.apply(lambda row: geocoder.google([row['latitude'], row['longitude']], 
-                                   method='reverse', key = google_api_key).country_long, axis = 1)
+>>> merge_df['Country'] = merge_df.apply(lambda row: geocoder.google([row['latitude'], row['longitude']], 
+                                         method='reverse', key = google_api_key).country_long, axis = 1)
 ```
 If they do not want to edit anything and prefer to run the code using Google API, then they should edit the file <em>keys.txt</em> under the folder <em>data</em>, and write three lines, under their ADS API key. They should contain, in this order, the Google API Key, Client User ID and Secret. They can get their credentials in <a href = "https://console.cloud.google.com/projectselector/google/maps-apis/credentials" target = "_blank">Google Cloud Platform</a>.
 
