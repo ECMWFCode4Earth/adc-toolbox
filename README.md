@@ -30,7 +30,7 @@
 <h2 id = "description">1. Description</h2>
 
 Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools that allows users to compare atmospheric composition datasets from different sources. Currently, it is possible to compare:
-* Forecast data from CAMS model vs. L2 near real-time and offline data from TROPOMI (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>), IASI (O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, HCHO) sensors.
+* Forecast data from CAMS model vs. L2 near real-time and offline data from TROPOMI (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>, HCHO), IASI (O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, HCHO) sensors.
 * Reanalysis monthly data from CAMS model vs. L3 monthly data from TROPOMI (NO<sub>2</sub>), IASI (CO, O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>) sensors.
 
 Users can install the software in their desktop by following the steps described in <a href = "#requirements">Requirements</a>.
@@ -48,7 +48,7 @@ ADC Toolbox facilitates the retrieval of all the datasets presented in Table 1, 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | CAMS  | <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">Forecast</a> | 01.2015 - Present | 01.2015 - Present | 01.2015 - Present | 01.2015 - Present | 01.2015 - Present | 
 | CAMS  | <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-ghg-reanalysis-egg4-monthly">Reanalysis</a> | 01.2003 - Present | 01.2003 - Present | 01.2003 - Present | 01.2003 - Present | 01.2003 - Present | 
-| TROPOMI  | <a href = "https://s5phub.copernicus.eu/dhus/" target = "_blank">L2</a> | 07.2018 - Present | 07.2018 - Present | 07.2018 - Present | 10.2018 - Present | - | 
+| TROPOMI  | <a href = "https://s5phub.copernicus.eu/dhus/" target = "_blank">L2</a> | 07.2018 - Present | 07.2018 - Present | 07.2018 - Present | 10.2018 - Present | 07.2018 - Present | 
 | TROPOMI  | <a href = "https://www.temis.nl/" target = "_blank">L3</a> | 07.2018 - Present | - | - | - | - | 
 | IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L2</a> | - | 01.2008 - Present | 10.2007 - Present | 10.2007 - Present | - |
 | IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L3</a> | - | 01.2008 - Present | 10.2007 - Present | 10.2007 - Present | - |
