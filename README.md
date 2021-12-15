@@ -51,7 +51,7 @@ ADC Toolbox facilitates the retrieval of all the datasets presented in Table 1, 
 | TROPOMI  | <a href = "https://s5phub.copernicus.eu/dhus/" target = "_blank">L2</a> | 07.2018 - Present | 07.2018 - Present | 07.2018 - Present | 10.2018 - Present | 07.2018 - Present | 
 | TROPOMI  | <a href = "https://www.temis.nl/" target = "_blank">L3</a> | 07.2018 - Present | - | - | - | - | 
 | IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L2</a> | - | 01.2008 - Present | 10.2007 - Present | 10.2007 - Present | - |
-| IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L3</a> | - | 01.2008 - Present | 10.2007 - Present | 10.2007 - Present | - |
+| IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L3</a> | - | 01.2008 - Present | 10.2007 - Present | - | - |
 | GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L2</a> | 01.2007 - Present | 01.2007 - Present | - | 01.2007 - Present | 01.2007 - Present | 
 | GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L3</a> | 02.2007 - 11.2017 | 01.2007 - 11.2017 | - | - | - | 
 
