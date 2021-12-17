@@ -19,6 +19,7 @@
     <li><a href = "#requirements">Requirements</a></li>
     <li><a href = "#organization">Organization </a></li>
     <li><a href = "#references">References</a></li>
+    <li><a href = "#feedback">Feedback</a></li>
     <li><a href = "#author">Author</a></li>
     <li><a href = "#support">Support</a></li>
   </ol>
@@ -30,8 +31,8 @@
 <h2 id = "description">1. Description</h2>
 
 Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools that allows users to compare atmospheric composition datasets from different sources. Currently, it is possible to compare:
-* Forecast data from CAMS model vs. L2 near real-time and offline data from TROPOMI (NO<sub>2</sub>, CO, O<sub>3</sub>, SO<sub>2</sub>, HCHO), IASI (O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, HCHO) sensors.
-* Reanalysis monthly data from CAMS model vs. L3 monthly data from TROPOMI (NO<sub>2</sub>), IASI (CO, O<sub>3</sub>) and GOME-2 (NO<sub>2</sub>) sensors.
+* Forecast data from CAMS model vs. L2 near real-time and offline data from TROPOMI (NO<sub>2</sub>, O<sub>3</sub>, CO, SO<sub>2</sub>, HCHO), IASI (O<sub>3</sub>, CO, SO<sub>2</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, SO<sub>2</sub>, HCHO) sensors.
+* Reanalysis monthly data from CAMS model vs. L3 monthly data from TROPOMI (NO<sub>2</sub>), IASI (O<sub>3</sub>, CO) and GOME-2 (NO<sub>2</sub>) sensors.
 
 Users can install the software in their desktop by following the steps described in <a href = "#requirements">Requirements</a>.
 
@@ -53,7 +54,7 @@ ADC Toolbox facilitates the retrieval of all the datasets presented in Table 1, 
 | IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L2</a> | - | 01.2008 - Present | 10.2007 - Present | 10.2007 - Present | - |
 | IASI  | <a href = "https://iasi.aeris-data.fr/" target = "_blank">L3</a> | - | 01.2008 - Present | 10.2007 - Present | - | - |
 | GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L2</a> | 01.2007 - Present | 01.2007 - Present | - | 01.2007 - Present | 01.2007 - Present | 
-| GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L3</a> | 02.2007 - 11.2017 | 01.2007 - 11.2017 | - | - | - | 
+| GOME-2  | <a href = "https://acsaf.org/offline_access.php" target = "_blank">L3</a> | 02.2007 - 11.2017 | - | - | - | - | 
 
 The temporal availability of each dataset differs from others. CAMS forecasts became available in 2015 and the reanalysis datasets are accessible since 2003. Besides, the satellites that carry the instruments were launched in different years. Sentinel 5-P was launched in 2017, whereas Metop-A, the first European polar-orbiting satellite, was launched in 2006 and will be de-orbited in 2021. Metop-B and Metop-C have been operational since 2012 and 2018, respectively. 
 
@@ -171,15 +172,21 @@ If they do not want to edit anything and prefer to run the code using Google API
   
 <h3>5.3. Other useful references</h3>
   <ul>
-    <li><a href = "https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/functions.ipynb" target = "_blank">Visualization function</a></li>
+    <li><a href = "https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/functions.ipynb" target = "_blank">Supporting functions from LTPy training course</a></li>
     <li><a href = "https://confluence.ecmwf.int/display/OIFS/4.4+OpenIFS%3A+Vertical+Resolution+and+Configurations">CAMS model vertical resolution and configuration</a></li>
-    <li><a href = "https://github.com/DenisCarriere/geocoder" target = "_blank">Reverse geocoding</a></li>
   </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
+<!-- FEEDBACK -->
+<h2 id = "feedback">6. User feeback form</h2>
+
+If you are interested in the ADC toolbox and would like it to have other functionalities or datasets, you can <a href = "https://docs.google.com/forms/d/e/1FAIpQLSd2DYumvDcIGIz1cQrbfezOOEdGBFli5q76uZvmLva6mZ0E7w/viewform?usp=sf_link" target = "_blank">write your feedback in this form</a>. <strong>Thank you very much!</strong>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
 <!-- AUTHOR -->
-<h2 id = "author">6. Author</h2>
+<h2 id = "author">7. Author</h2>
 <p align = "center"><img style = "border-radius: 50%;" src = "report/alba-vilanova.jpg" alt = "Alba Vilanova Cortezón" width = 150px></img><br>
 <b>Alba Vilanova Cortezón</b><br>
 BEng in Mechanical Engineering at <a href ="https://www.udl.cat/ca/en/" target = "_blank">University of Lleida</a> and <a href ="http://eng.inha.ac.kr/" target = "_blank">Inha University</a><br>
@@ -192,7 +199,7 @@ Website: <a href = "https://albavilanova.es/" target = "_blank">https://albavila
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 <!-- SUPPORT -->
-<h2 id = "support">7. Support</h2>
+<h2 id = "support">8. Support</h2>
 ADC-Toolbox has been developed under the framework set by <a href ="https://esowc.ecmwf.int/" target = "_blank">ECMWF Summer of Weather Code</a>:<br><br>
 <p align = "center"><img src = "report/ESoWC-logo.png" alt = "Logo of ESoWC" width = 300px></img></p>
 A special <b>thanks to my mentors Federico Fierli, Antje Inness and Miha Razinger</b> for their support and guidance.
