@@ -14,5 +14,5 @@ data/gome/
 env-new/
 nano.save
 animation.gif
-TEMIS_download_test.ipynb
-thesis
+functions_test.ipynb
+thesis/results
