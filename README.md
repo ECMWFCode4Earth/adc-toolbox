@@ -3,7 +3,7 @@
 </br>
 
 <p align="center"> 
-  <img src = "report/ADC-toolbox-image.png" alt = "2021 ESoWC Project Image - ADC Toolbox" width = "95%" height = "95%">
+  <img src = "report/ADC_toolbox_project_image.png" alt = "2021 ESoWC Project Image - ADC Toolbox" width = "95%" height = "95%">
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
@@ -34,7 +34,7 @@ Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools th
 * Forecast data from CAMS model vs. L2 near real-time and offline data from TROPOMI (NO<sub>2</sub>, O<sub>3</sub>, CO, SO<sub>2</sub>, HCHO), IASI (O<sub>3</sub>, CO, SO<sub>2</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, SO<sub>2</sub>, HCHO) sensors.
 * Reanalysis monthly data from CAMS model vs. L3 monthly data from TROPOMI (NO<sub>2</sub>), IASI (O<sub>3</sub>, CO) and GOME-2 (NO<sub>2</sub>) sensors.
 
-Users can install the software in their desktop by following the steps described in <a href = "#requirements">Requirements</a>.
+Users can install the software in their desktop by following the steps described in <a href = "#requirements">Requirements</a>. A <a href = "https://nbviewer.org/github/esowc/adc-toolbox/blob/main/thesis/case_study.ipynb">case study</a> was created to show the usability of the toolbox for deriving long-term trends in air pollution.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
@@ -134,7 +134,9 @@ If they do not want to edit anything and prefer to run the code using Google API
     │
     ├── report                                  <- Folder where the images of the README.md are stored
     │
-    ├── trainings                               <- Folder for trainings materials  
+    ├── thesis                                  <- Folder for case study (master's thesis)
+    │
+    ├── trainings                               <- Folder for trainings material 
     │   │
     │   └── 2021-12-atmospheric-composition     <- 3rd EUMETSAT/ESA/ECMWF Joint Training in AC
     │     │
@@ -188,7 +190,7 @@ If you are interested in the ADC toolbox and would like it to have other functio
 
 <!-- AUTHOR -->
 <h2 id = "author">7. Author</h2>
-<p align = "center"><img style = "border-radius: 50%;" src = "report/Alba-Vilanova-profile-image.jpg" alt = "Alba Vilanova Cortezón" width = 150px></img><br>
+<p align = "center"><img style = "border-radius: 50%;" src = "report/Alba_Vilanova_profile_image.jpg" alt = "Alba Vilanova Cortezón" width = 150px></img><br>
 <b>Alba Vilanova Cortezón</b><br>
 BEng in Mechanical Engineering at <a href ="https://www.udl.cat/ca/en/" target = "_blank">University of Lleida</a> and <a href ="http://eng.inha.ac.kr/" target = "_blank">Inha University</a><br>
 MSc in Geospatial Technologies at <a href ="https://www.novaims.unl.pt/default" target = "_blank">NOVA University of Lisbon</a>, <a href ="https://www.uni-muenster.de/en/" target = "_blank">WWU Münster</a> and <a href ="https://www.uji.es/" target = "_blank">UJI</a><br>
@@ -202,5 +204,5 @@ Website: <a href = "https://albavilanova.es/" target = "_blank">https://albavila
 <!-- SUPPORT -->
 <h2 id = "support">8. Support</h2>
 ADC-Toolbox has been developed under the framework set by <a href ="https://esowc.ecmwf.int/" target = "_blank">ECMWF Summer of Weather Code</a>:<br><br>
-<p align = "center"><img src = "report/ESoWC-logo.png" alt = "Logo of ESoWC" width = 300px></img></p>
+<p align = "center"><img src = "report/ESoWC_logo.png" alt = "Logo of ESoWC" width = 300px></img></p>
 A special <b>thanks to my mentors Federico Fierli, Antje Inness and Miha Razinger</b> for their support and guidance.
