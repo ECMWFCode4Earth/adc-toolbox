@@ -113,18 +113,19 @@ If they do not want to edit anything and prefer to run the code using Google API
 <!-- ORGANIZATION -->
 <h2 id = "organization">4. Organization</h2>
 
-    ├── README.md                               <- Details about the project
-    ├── LICENSE                                 <- Details about the license
-    ├── apt.txt                                 <- Details about the requirements (apt-get)
-    ├── requirements.txt                        <- Details about the requirements (pip)
-    ├── environment.yml                         <- Details about the environment
-    ├── data                                    <- Folder where the datasets are stored
+    ├── README.md                               <- Details about project
+    ├── LICENSE                                 <- Details about license
+    ├── apt.txt                                 <- Details about requirements (apt-get)
+    ├── requirements.txt                        <- Details about requirements (pip)
+    ├── environment.yml                         <- Details about virtual environment
+    ├── data                                    <- Folder where datasets are stored
     │   │
-    │   └── cams                                <- Folder for CAMS datasets
+    │   └── cams                                <- Folder where CAMS datasets are stored
     │       │
-    │       └── 137-levels.csv                  <- Details about CAMS model levels
+    │       ├── 137-levels-definition.csv       <- Details about CAMS L137 levels
+    │       └── 60-levels-definition.csv        <- Details about CAMS L60 levels
     │
-    ├── functions                               <- Folder that contains functions
+    ├── functions                               <- Folder that contains all functions
     │   │
     │   ├── functions_general.ipynb             <- Functions that apply to all datasets
     │   ├── functions_cams.ipynb                <- Functions that apply to CAMS datasets
@@ -141,7 +142,8 @@ If they do not want to edit anything and prefer to run the code using Google API
     │   └── 2021-12-atmospheric-composition     <- 3rd EUMETSAT/ESA/ECMWF Joint Training in AC
     │     │
     │     ├── images                            <- Folder where the images of the training are stored
-    │     └── data-comparison-practical.ipynb   <- Data comparison practical
+    │     ├── data-comparison-practical.ipynb   <- Data comparison practical
+    │     └── keys-example.txt                  <- File format example of keys.txt (hidden)
     │
     ├── main_cams_gome_L2.ipynb                 <- Comparison between CAMS and GOME-2 L2 datasets
     ├── main_cams_gome_L3.ipynb                 <- Comparison between CAMS and GOME-2 L3 datasets
