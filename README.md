@@ -57,7 +57,7 @@ ADC Toolbox facilitates the retrieval of all the datasets presented in Table 1, 
 | GOME-2  | L3 | <a href = "https://acsaf.org/offline_access.php" target = "_blank">AC SAF</a> | 02.2007 - 11.2017 | - | - | - | - | 
 | GOME-2  | L3 | <a href = "https://www.temis.nl/" target = "_blank">TEMIS</a> | 02.2007 - Present | - | - | - | - | 
 
-The temporal availability of each dataset differs from others. CAMS forecasts became available in 2015 and the reanalysis datasets are accessible since 2003. Besides, the satellites that carry the instruments were launched in different years. Sentinel 5-P was launched in 2017, whereas Metop-A, the first European polar-orbiting satellite, was launched in 2006 and will be de-orbited in 2021. Metop-B and Metop-C have been operational since 2012 and 2018, respectively. 
+The temporal availability of each dataset differs from others. CAMS forecasts became available in 2015 and the reanalysis datasets are accessible since 2003. Besides, the satellites that carry the instruments were launched in different years. Sentinel 5-P was launched in 2017, whereas Metop-A, the first European polar-orbiting satellite, was launched in 2006 and de-orbited in 2021. Metop-B and Metop-C have been operational since 2012 and 2018, respectively. 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
@@ -161,10 +161,10 @@ If they do not want to edit anything and prefer to run the code using Google API
   <ul>
     <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">ADS: CAMS global atmospheric composition forecasts</a></li>
     <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-ghg-reanalysis-egg4-monthly">ADS: CAMS global greenhouse gas reanalysis (EGG4) monthly averaged fields</a></li>
-    <li><a href = "https://s5phub.copernicus.eu/dhus" target = "_blank">S5-P hub: TROPOMI L2 datasets</a></li>
-    <li><a href = "https://www.temis.nl/" target = "_blank">TEMIS: TROPOMI L3 datasets</a></li>
-    <li><a href = "https://iasi.aeris-data.fr/" target = "_blank">AERIS Portal: IASI datasets</a></li>
-    <li><a href = "https://acsaf.org/offline_access.php" target = "_blank">AC SAF: GOME-2 datasets</a></li>
+    <li><a href = "https://s5phub.copernicus.eu/dhus" target = "_blank">S5-P hub: TROPOMI datasets (L2)</a></li>
+    <li><a href = "https://www.temis.nl/" target = "_blank">TEMIS: TROPOMI and GOME-2 datasets (L3)</a></li>
+    <li><a href = "https://iasi.aeris-data.fr/" target = "_blank">AERIS Portal: IASI datasets (L2 and L3)</a></li>
+    <li><a href = "https://acsaf.org/offline_access.php" target = "_blank">AC SAF: GOME-2 datasets (L2 and L3)</a></li>
   </ul>
 
 <h3>5.2. Documentation</h3>
