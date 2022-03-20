@@ -36,7 +36,7 @@ Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools th
 
 A full explanation of the initial version of this software and its theoretical background can be read in <a href = "https://www.researchgate.net/publication/359342884_Development_of_a_Toolbox_to_Compare_Atmospheric_Composition_Datasets_Long-term_trends_in_urban_NO2_concentrations_in_Spain_derived_from_CAMS_reanalysis_and_GOME-2_data" target = "_blank">Research Gate</a>.
 
-Users can install the software in their desktop by following the steps described in <a href = "#requirements">Requirements</a>. A <a href = "https://nbviewer.org/github/esowc/adc-toolbox/blob/main/thesis/case_study.ipynb" target = "_blank">case study</a> was created to show the usability of the toolbox for deriving long-term trends in air pollution. 
+Users can install the software in their desktop by following the steps described in <a href = "#requirements">Requirements</a>. A <a href = "https://nbviewer.org/github/esowc/ADC Toolbox/blob/main/thesis/case_study.ipynb" target = "_blank">case study</a> was created to show the usability of the toolbox for deriving long-term trends in air pollution. 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
@@ -50,7 +50,7 @@ ADC Toolbox facilitates the retrieval of all the datasets presented in Table 1, 
 | Source | Type | Platform | NO<sub>2</sub> | O<sub>3</sub> | CO | SO<sub>2</sub> | HCHO |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | CAMS  | Forecast | <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">ADS</a> | 01.2015 - Present | 01.2015 - Present | 01.2015 - Present | 01.2015 - Present | 01.2015 - Present | 
-| CAMS  | Reanalysis | <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-ghg-reanalysis-egg4-monthly">ADS</a> | 01.2003 - 06.2021 | 01.2003 - 06.2021 | 01.2003 - 06.2021 | 01.2003 - 06.2021 | 01.2003 - 06.2021 | 
+| CAMS  | Reanalysis | <a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-ghg-reanalysis-egg4-monthly" target = "_blank">ADS</a> | 01.2003 - 06.2021 | 01.2003 - 06.2021 | 01.2003 - 06.2021 | 01.2003 - 06.2021 | 01.2003 - 06.2021 | 
 | TROPOMI  | L2 | <a href = "https://s5phub.copernicus.eu/dhus/" target = "_blank">S5-P hub</a> | 07.2018 - Present | 07.2018 - Present | 07.2018 - Present | 10.2018 - Present | 07.2018 - Present | 
 | TROPOMI  | L3 | <a href = "https://www.temis.nl/" target = "_blank">TEMIS</a> | 07.2018 - Present | - | - | - | - | 
 | IASI  | L2 | <a href = "https://iasi.aeris-data.fr/" target = "_blank">AERIS Portal</a> | - | 01.2008 - Present | 10.2007 - Present | 10.2007 - Present | - |
@@ -72,14 +72,14 @@ The needed packages to run this software can be found in <em>requirements.txt</e
 ```bash
 $ conda config --set channel_priority false
 $ conda env create -f environment.yml
-$ conda activate adc-toolbox
+$ conda activate ADC Toolbox
 ```
 
 If this takes too long, they can manually create it instead <strong>(recommended)</strong>:
 
 ```bash
-$ conda create --name adc-toolbox
-$ conda activate adc-toolbox
+$ conda create --name ADC Toolbox
+$ conda activate ADC Toolbox
 $ conda install -c conda-forge/label/cartopy_dev cartopy
 $ pip install -r requirements.txt
 ```
@@ -103,7 +103,7 @@ Lately, there have been problems retrieving the data from NACIS Natural Earth to
 
 <h3>3.3. Scatter plots by country</h3>
 
-In case users want to see the distribution of the components by countries, they will need a Google API Key, Client User ID and Secret. The library Geocoder is used to get the data from Google, but it also allows the users of the ADC-Toolbox to use other APIs to do reverse geocoding (retrieving location information by coordinates). In the function scatter_plot, they will find the following line. You can rewrite as they wish. The list of providers can be found in <a href = "https://github.com/DenisCarriere/geocoder" target = "_blank"> <em>Geocoder</em>'s Github repository</a>.
+In case users want to see the distribution of the components by countries, they will need a Google API Key, Client User ID and Secret. The library Geocoder is used to get the data from Google, but it also allows the users of the ADC Toolbox to use other APIs to do reverse geocoding (retrieving location information by coordinates). In the function scatter_plot, they will find the following line. You can rewrite as they wish. The list of providers can be found in <a href = "https://github.com/DenisCarriere/geocoder" target = "_blank"> <em>Geocoder</em>'s Github repository</a>.
 ```python
 >>> merge_df['Country'] = merge_df.apply(lambda row: geocoder.google([row['latitude'], row['longitude']], 
                                                      method = 'reverse', key = google_api_key).country_long, 
@@ -162,7 +162,7 @@ If they do not want to edit anything and prefer to run the code using Google API
 <h3>5.1. Data sources</h3>
   <ul>
     <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts" target = "_blank">ADS: CAMS global atmospheric composition forecasts</a></li>
-    <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-ghg-reanalysis-egg4-monthly">ADS: CAMS global greenhouse gas reanalysis (EGG4) monthly averaged fields</a></li>
+    <li><a href = "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-ghg-reanalysis-egg4-monthly" target = "_blank">ADS: CAMS global greenhouse gas reanalysis (EGG4) monthly averaged fields</a></li>
     <li><a href = "https://s5phub.copernicus.eu/dhus" target = "_blank">S5-P hub: TROPOMI datasets (L2)</a></li>
     <li><a href = "https://www.temis.nl/" target = "_blank">TEMIS: TROPOMI and GOME-2 datasets (L3)</a></li>
     <li><a href = "https://iasi.aeris-data.fr/" target = "_blank">AERIS Portal: IASI datasets (L2 and L3)</a></li>
@@ -181,7 +181,7 @@ If they do not want to edit anything and prefer to run the code using Google API
 <h3>5.3. Other useful references</h3>
   <ul>
     <li><a href = "https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/functions.ipynb" target = "_blank">Supporting functions from LTPy training course</a></li>
-    <li><a href = "https://confluence.ecmwf.int/display/OIFS/4.4+OpenIFS%3A+Vertical+Resolution+and+Configurations">CAMS model vertical resolution and configuration</a></li>
+    <li><a href = "https://confluence.ecmwf.int/display/OIFS/4.4+OpenIFS%3A+Vertical+Resolution+and+Configurations" target = "_blank">CAMS model vertical resolution and configuration</a></li>
   </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
@@ -197,6 +197,7 @@ If you are interested in the ADC toolbox and would like it to have other functio
 <h2 id = "author">7. Author</h2>
 <p align = "center"><img style = "border-radius: 50%;" src = "report/Alba_Vilanova_profile_image.jpg" alt = "Alba Vilanova Cortezón" width = 150px></img><br>
 <b>Alba Vilanova Cortezón</b><br>
+Research Engineer at <a href = "https://www.bsc.es/" target = "_blank">Barcelona Supercomputing Center</a><br>
 BEng in Mechanical Engineering at <a href ="https://www.udl.cat/ca/en/" target = "_blank">University of Lleida</a> and <a href ="http://eng.inha.ac.kr/" target = "_blank">Inha University</a><br>
 MSc in Geospatial Technologies at <a href ="https://www.novaims.unl.pt/default" target = "_blank">NOVA University of Lisbon</a>, <a href ="https://www.uni-muenster.de/en/" target = "_blank">WWU Münster</a> and <a href ="https://www.uji.es/" target = "_blank">UJI</a><br>
 GitHub: <a href="https://github.com/albavilanova" target = "_blank">@albavilanova</a><br>
@@ -208,6 +209,6 @@ Website: <a href = "https://albavilanova.es/" target = "_blank">https://albavila
 
 <!-- SUPPORT -->
 <h2 id = "support">8. Support</h2>
-ADC-Toolbox has been developed under the framework set by <a href ="https://esowc.ecmwf.int/" target = "_blank">ECMWF Summer of Weather Code</a>:<br><br>
+ADC Toolbox has been developed under the framework set by <a href ="https://esowc.ecmwf.int/" target = "_blank">ECMWF Summer of Weather Code</a>:<br><br>
 <p align = "center"><img src = "report/ESoWC_logo.png" alt = "Logo of ESoWC" width = 300px></img></p>
 A special <b>thanks to my mentors Federico Fierli, Antje Inness and Miha Razinger</b> for their support and guidance.
