@@ -34,7 +34,9 @@ Atmospheric Datasets Comparison (ADC) Toolbox is aimed to have a set of tools th
 * Forecast data from CAMS model vs. L2 near real-time and offline data from TROPOMI (NO<sub>2</sub>, O<sub>3</sub>, CO, SO<sub>2</sub>, HCHO), IASI (O<sub>3</sub>, CO, SO<sub>2</sub>) and GOME-2 (NO<sub>2</sub>, O<sub>3</sub>, SO<sub>2</sub>, HCHO) sensors.
 * Reanalysis monthly data from CAMS model vs. L3 monthly data from TROPOMI (NO<sub>2</sub>), IASI (O<sub>3</sub>, CO) and GOME-2 (NO<sub>2</sub>) sensors.
 
-Users can install the software in their desktop by following the steps described in <a href = "#requirements">Requirements</a>. A <a href = "https://nbviewer.org/github/esowc/adc-toolbox/blob/main/thesis/case_study.ipynb">case study</a> was created to show the usability of the toolbox for deriving long-term trends in air pollution.
+A full explanation of the initial version of this software and its theoretical background can be read in <a href = "https://www.researchgate.net/publication/359342884_Development_of_a_Toolbox_to_Compare_Atmospheric_Composition_Datasets_Long-term_trends_in_urban_NO2_concentrations_in_Spain_derived_from_CAMS_reanalysis_and_GOME-2_data" target = "_blank">Research Gate</a>.
+
+Users can install the software in their desktop by following the steps described in <a href = "#requirements">Requirements</a>. A <a href = "https://nbviewer.org/github/esowc/adc-toolbox/blob/main/thesis/case_study.ipynb" target = "_blank">case study</a> was created to show the usability of the toolbox for deriving long-term trends in air pollution. 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
